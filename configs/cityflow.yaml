@@ -1,0 +1,17 @@
+# Configuration for CityFlow dataset
+# 40 cameras, large-scale, city-wide
+
+defaults:
+  - default
+
+dataset: "cityflow"
+num_classes: ...  # depends on split
+
+# CityFlow specific hyperparameters from supplementary
+gamma: 0.8
+lambda_length: 0.2
+beam_width: 8
+max_depth: 8
+max_duration_min: 45
+lambda_st: 0.4
+sim_threshold: 0.70

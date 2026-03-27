@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data and experiments
+data/
+experiments/
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Paper output
+paper/draft/*.pdf
+paper/draft/*.aux
+paper/draft/*.log
+paper/draft/*.out
+paper/draft/*.bbl
+paper/draft/*.blg
+
+# OS
+Thumbs.db

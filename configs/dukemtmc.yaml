@@ -1,0 +1,17 @@
+# Configuration for DukeMTMC-videoReID dataset
+# 8 cameras, 1404 identities, outdoor
+
+defaults:
+  - default
+
+dataset: "dukemtmc"
+num_classes: 702  # training identities
+
+# DukeMTMC specific hyperparameters from supplementary
+gamma: 0.85
+lambda_length: 0.15
+beam_width: 5
+max_depth: 6
+max_duration_min: 30
+lambda_st: 0.35
+sim_threshold: 0.72

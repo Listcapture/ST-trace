@@ -1,0 +1,17 @@
+# Configuration for NLPR_MCT dataset
+# 4 cameras, 235 trajectories, indoor
+
+defaults:
+  - default
+
+dataset: "nlpr_mct"
+num_classes: 135  # training identities
+
+# NLPR_MCT specific hyperparameters from supplementary
+gamma: 0.9
+lambda_length: 0.1
+beam_width: 5
+max_depth: 4
+max_duration_min: 15
+lambda_st: 0.3
+sim_threshold: 0.75
